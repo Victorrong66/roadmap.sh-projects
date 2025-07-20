@@ -114,15 +114,15 @@ nav .right a span {
     }
 }
 
-.hero-section .headshot img {
-    width: 300px;
-}
-
 @media (max-wdith: 740px) {
     /*Hero Section*/
     .hero-section {
         flex-direction: column-reverse;
     }
+}
+
+.hero-section .headshot img {
+    width: 300px;
 }
 
 @media (max-width: 600px) {
@@ -145,3 +145,4 @@ nav .right a span {
         display: none;
     }
 }
+
