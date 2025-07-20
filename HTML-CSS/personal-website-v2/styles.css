@@ -64,7 +64,7 @@ nav .right a span {
     padding: 0 50px;
     margin: 50px 0;
     margin-bottom: 100px; /*Cannot be below gap*/
-    gap: 40px
+    gap: 40px;
     
 }
 
@@ -114,7 +114,7 @@ nav .right a span {
     }
 }
 
-@media (max-wdith: 740px) {
+@media (max-width: 740px) {
     /*Hero Section*/
     .hero-section {
         flex-direction: column-reverse;
