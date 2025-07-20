@@ -107,7 +107,7 @@ nav .right a span {
     width: 350px;
 }
 
-@media (max-wdith: 850px) {
+@media (max-width: 850px) {
     /*Hero Section*/
     .hero-section .text h2 {
         font-size: 35px;
@@ -119,11 +119,13 @@ nav .right a span {
     .hero-section {
         flex-direction: column-reverse;
     }
+
+    .hero-section .headshot img {
+    width: 300px;
+    }
 }
 
-.hero-section .headshot img {
-    width: 300px;
-}
+
 
 @media (max-width: 600px) {
     /*Nav Bar*/
