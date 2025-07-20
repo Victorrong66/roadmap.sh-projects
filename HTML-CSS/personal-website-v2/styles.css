@@ -102,17 +102,27 @@ nav .right a span {
     justify-content:right;
 }
 
-.hero-section .headshot img{
+.hero-section .headshot img {
     border-radius: 50%;
     width: 350px;
 }
 
 @media (max-wdith: 850px) {
-
+    /*Hero Section*/
+    .hero-section .text h2 {
+        font-size: 35px;
+    }
 }
 
-@media (max-wdith: 750px) {
-    
+.hero-section .headshot img {
+    width: 300px;
+}
+
+@media (max-wdith: 740px) {
+    /*Hero Section*/
+    .hero-section {
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 600px) {
