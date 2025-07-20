@@ -107,6 +107,13 @@ nav .right a span {
     width: 350px;
 }
 
+@media (max-wdith: 850px) {
+
+}
+
+@media (max-wdith: 750px) {
+    
+}
 
 @media (max-width: 600px) {
     /*Nav Bar*/
