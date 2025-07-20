@@ -1,0 +1,33 @@
+form {
+    width: 60vw;
+    max-wdith: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: beige;
+    color: #333;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
